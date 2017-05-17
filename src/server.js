@@ -4,6 +4,8 @@ const tool = require('./tool.js');
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
@@ -11,6 +13,6 @@ app.get('/', (req, res) => {
   res.json({ url: url });
 })
 
-app.listen(3000, () => {
-  console.log('Server Active on 3000');
+app.listen(port, () => {
+  console.log('Server Active on ', port);
 })
