@@ -1,6 +1,13 @@
 exports.genURL = (urlLength) => {
-  var urlString = "XXXXX";
+  var urlString = "";
+  const sourceLetters = "ABCDEFGHJKMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
 
+  // Loop for num supplied by param
+  for(var genLoopIndex = 0; genLoopIndex < urlLength; genLoopIndex++){
+
+    // Add a random letter to the urlString
+    urlString += sourceLetters.charAt(Math.random() * (sourceLetters.length - 1))
+  }
 
   return urlString
 }
