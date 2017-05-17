@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
