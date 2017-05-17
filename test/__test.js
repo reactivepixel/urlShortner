@@ -15,7 +15,7 @@ describe('URL Gen Testing', () => {
 
   it('Is it a string', () => {
     const stringTest = tool.genURL(12)
-    expect(typeof(stringTest)).to.be.equal('string')
+    expect(typeof(stringTest)).to.be.equal('xxxxxxx')
   })
 
 })
