@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
   const url = tool.genURL(5);
-  res.json({ url: url });
+  res.json({status:"Online", url: url });
 })
 
 app.listen(port, () => {

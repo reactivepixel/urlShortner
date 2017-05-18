@@ -9,5 +9,5 @@ exports.genURL = (urlLength) => {
     urlString += sourceLetters.charAt(Math.random() * (sourceLetters.length - 1))
   }
 
-  return urlString
+  return true
 }
