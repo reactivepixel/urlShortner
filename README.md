@@ -12,7 +12,7 @@ For installation / setup of node and npm here is a [short video series](https://
 Clone the codebase to your local environment.
 
 ```shell
-git clone git@github.com:reactivepixel/urlShortner.git
+git clone git@github.com:reactivepixel/urlShortner.git && cd urlShortner
 ```
 
 Install Packages
