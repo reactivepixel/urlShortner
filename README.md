@@ -1,4 +1,11 @@
-# url Shortener a Narrow Scope Tool
+# Basic Installation and Testing.
+
+# Prerequisites 
+
+* node
+* npm
+
+For installation / setup of node and npm here is a [short video series](https://www.youtube.com/watch?v=lI_2DWnYo8o&list=PLEBnLDjR5B92pDCEl9PBMuV6-XZTrSWKy).
 
 ## Installation
 
