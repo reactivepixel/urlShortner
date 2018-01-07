@@ -5,15 +5,15 @@
   "main": "src/tool.js",
   "scripts": {
     "start": "node src/server.js",
-
-			"test":
-				"override": "yarn test",
+    "test": {
+      "override": "yarn test",
+    }
   },
   "author": "chapman",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
-		"override":	"yarn"
+    "override":	"yarn"
   },
   "devDependencies": {
     "chai": "^3.5.0"
