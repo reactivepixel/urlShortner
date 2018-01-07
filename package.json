@@ -5,15 +5,12 @@
   "main": "src/tool.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": {
-      "override": "yarn test",
-    }
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chapman",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
-    "override":	"yarn",
   },
   "devDependencies": {
     "chai": "^3.5.0"
