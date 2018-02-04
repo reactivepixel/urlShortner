@@ -9,4 +9,9 @@ exports.genURL = (urlLength) => {
   }
 
   return urlString
+<<<<<<< HEAD
 }
+=======
+  
+}
+>>>>>>> 4bebafd7dde16d5cb676e9242201dbbe02619972
