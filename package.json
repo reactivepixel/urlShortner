@@ -5,7 +5,7 @@
   "main": "src/tool.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "echo \"mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chapman",
   "license": "ISC",
@@ -13,7 +13,6 @@
     "express": "^4.15.3"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha-junit-reporter": "^1.17.0"
+    "chai": "^3.5.0"
   }
 }
