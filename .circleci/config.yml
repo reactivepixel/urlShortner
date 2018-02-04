@@ -18,7 +18,8 @@ jobs:
 
     steps:
       - checkout
-
+      - run: echo "hello world"
+      
       # Download and cache dependencies
       - restore_cache:
           keys:
