@@ -2,9 +2,9 @@
   "name": "newci",
   "version": "1.0.0",
   "description": "",
-  "main": "src/tool.js",
+  "main": "tool.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node src/tool.js",
     "test": "mocha"
   },
   "author": "chapman",
