@@ -10,7 +10,8 @@
   "author": "chapman",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mocha": "^5.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0"
