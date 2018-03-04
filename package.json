@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/tool.js",
   "engines": {
-    "node": "v6.6.0",
+    "node": "v8.8.1",
     "npm": "3.10.3"
   },
   "scripts": {
