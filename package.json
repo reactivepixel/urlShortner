@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/tool.js",
+  "engines": {
+    "node": "v6.6.0",
+    "npm": "3.10.3"
+  },
   "scripts": {
     "start": "node src/server.js",
     "test": "mocha"
