@@ -1,6 +1,7 @@
+[![CircleCI](https://circleci.com/gh/BHess2653/urlShortner.svg?style=svg)](https://circleci.com/gh/BHess2653/urlShortner)
 # Basic Installation and Testing.
 
-# Prerequisites 
+# Prerequisites
 
 * node
 * npm
