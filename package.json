@@ -13,6 +13,7 @@
     "express": "^4.15.3"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^5.1.1"
   }
 }
