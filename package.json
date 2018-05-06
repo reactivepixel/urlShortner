@@ -5,7 +5,7 @@
   "main": "src/tool.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": ".circleci/config.yml"
+    "test": "mocha __test.js"
   },
   "author": "chapman",
   "license": "ISC",
