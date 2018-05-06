@@ -5,7 +5,7 @@
   "main": "src/tool.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "cirlceci/config.yml"
+    "test": ".circleci/config.yml"
   },
   "author": "chapman",
   "license": "ISC",
