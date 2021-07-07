@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/tool.js",
+  "engines": {
+    "node": "v8.8.1",
+    "npm": "3.10.3"
+  },
   "scripts": {
     "start": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "chapman",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mocha": "^5.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0"
